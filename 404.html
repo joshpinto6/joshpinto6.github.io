@@ -382,7 +382,7 @@
           console.log(lowerCaseURL.substring(0, 'https://joshpinto6.github.io/GodotMage'.length));
 
           if (lowerCaseURL.substring(0, 'https://joshpinto6.github.io/GodotMage'.length) == "https://joshpinto6.github.io/godotmage") {
-            location.replace("https://joshpinto6.github.io/GodotMage" + "/docs");
+            location.replace("https://joshpinto6.github.io/GodotMage" + lowerCaseURL.substring('https://joshpinto6.github.io/GodotMage'.length));
             console.log("Redirecting!");
           }
       };
