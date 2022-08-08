@@ -373,5 +373,16 @@
     })
 </script>
 
+
+    <script>
+      window.onload = () => {
+          currentURL = window.location.href;
+          lowerCaseURL = currentURL.toLowerCase();
+
+          if (lowerCaseURL.substring(0, 'https://www.joshpinto6.github.io/GodotMage'.length) == "https://www.joshpinto6.github.io/godotmage") {
+            location.replace("https://www.joshpinto6.github.io/GodotMage" + "/docs");
+          }
+      };
+  </script>
   </body>
 </html>
