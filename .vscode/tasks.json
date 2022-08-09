@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Test Site",
+            "type": "shell",
+            "command": "hugo server",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Site",
+            "type": "shell",
+            "command": "hugo",
+            "problemMatcher": []
+        },
+        {
+            "label": "Deploy to Github Pages",
+            "type": "shell",
+            "command": "cd public; git commit -m \"${input:message}\"; git push -f origin master",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build and Deploy to GH Pages",
+            "type": "shell",
+            "command": "hugo; cd public; git add .; git commit -m \"${input:message}\"; git push origin master",
+            "problemMatcher": []
+        }
+    ],
+    "inputs":[
+        {
+            "id": "message",
+            "description": "Commit Message",
+            "type": "promptString"
+        },
+    ]
+}
