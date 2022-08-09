@@ -76,8 +76,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/company/radity/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/scratchprofile.png"
+    _2x: "img/scratchprofile.png"
 
 # Client & Work
 client_and_work:
@@ -123,8 +123,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/celeste2.png"
-        _2x: "img/works/celeste-clone-godot.png"
+        x: "img/godot_screenshot.jpg"
+        _2x: "img/godot_screenshot.jpg"
       is_even: true
 
     - title: "Oliver the Dice Master"
