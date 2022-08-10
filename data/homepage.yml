@@ -136,7 +136,7 @@ client_and_work:
 
   works:
     - title: "Game Development"
-      description: "I enjoy creating videogames, primarily using Scratch, but, more recently with Godot. I began coding with Scratch in 2015, mainly creating games and engines. Now I use Godot, an open-source game engine for 2D/3D games. You can follow my games' progress [here.](joshpinto6.itch.io)"
+      description: "I enjoy creating videogames, primarily using Scratch, but also, more recently, with Godot. I began coding with Scratch in 2015, mainly creating games and engines. Now I use Godot, an open-source game engine, to create 2D and 3D games. Game development is a way for me to  myself and inspire others. You can follow my games' progress [here.](joshpinto6.itch.io)"
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
