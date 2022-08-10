@@ -130,8 +130,8 @@ client_and_work:
     - title: "Oliver the Dice Master"
       description: "A short Kirby-inspired pixel platformer I made in 48 hours for GMTK Game Jam 2022. You can track its progress [here.](joshpinto6.itch.io/oliver-the-dice-master)"
       button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
+        icon: "icon-github-line"
+        btnText: "View on Github"
         URL: "#"
       image:
         x: "img/works/oliver-the-dicemaster.png"
