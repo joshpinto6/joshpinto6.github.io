@@ -30,7 +30,7 @@
           {{ .Site.Data.homepage.showcase.button.btnText }}
         </a>
         <a
-        href="{{ .Site.Data.homepage.showcase.button.URL | absURL }}"
+        href="{{ .Site.Data.homepage.showcase.button2.URL | absURL }}"
         class="btn btn-primary btn-red"  
       >
         <i class="{{ .Site.Data.homepage.showcase.button2.icon }}"></i>
@@ -41,9 +41,19 @@
     <div class="row platform-links">
       <div class="col-12">
         {{ range .Site.Data.homepage.showcase.socialLinks }}
-        <a href="{{ .URL | absURL }}" target="_blank"
-          ><i class="icon-{{ .icon }}-line"></i
-        ></a>
+        <a href="{{ .URL | absURL }}" target="_blank" style="width:45px; height:45px; display: inline-flex;">
+          <div style="display: flex; clip-path: circle(40%); background-color: {{ .color }}; width: 45px; height: 45px; align-items:center; justify-items:center; align-content:center; justify-content:center;">
+        <img width=20 src="img/social-icons/icon-{{ .icon }}.png">
+        {{ if .innerbox }}
+        <div style="clip-path: circle(40%); background-color: {{ .innercolor }}; width: 21px; height: 21px; position: absolute; z-index: -1;"> </div>
+        {{ end }}
+
+        {{ if .innerbox2 }}
+        <div style="clip-path: circle(40%); background-color: {{ .innercolor2 }}; width: 37px; height: 37px; position: absolute; z-index: -1;"> </div>
+        {{ end }}
+        </div>
+        </a>
+
         {{ end }}
       </div>
     </div>

@@ -19,43 +19,69 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "https://joshpinto6.github.io/#contact"
 
   button2:
     icon: "icon-smile-fill"
     btnText: "See My Creations"
-    URL: "https://radity.com/en/contact/"
+    URL: "https://joshpinto6.github.io/#portfolio"
 
   socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+    - icon: "scratch"
+      URL: "https://scratch.mit.edu/users/joshpinto6"
+      color: "#25a7ee"
 
     - icon: "github"
       URL: "https://github.com/joshpinto6"
+      color: "#1b1f23"
+      innerbox: true
+      innercolor: "#ffffff"
 
-    - icon: "twitter"
-      URL: "https://twitter.com/radity"
+    - icon: "itch"
+      URL: "https://joshpinto6.itch.io"
+      color: "#fa5c5c"
 
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
+    - icon: "plus"
+      URL: "https://joshpinto6.github.io/#portfolio"
+      color: "#b7b7b7"
+      innerbox2: true
+      innercolor2: "#ffffff"
 
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
+    - icon: "plus"
+      URL: "https://joshpinto6.github.io/#portfolio"
+      color: "#b7b7b7"
+      innerbox2: true
+      innercolor2: "#ffffff"
 
-    - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+    - icon: "plus"
+      URL: "https://joshpinto6.github.io/#portfolio"
+      color: "#b7b7b7"
+      innerbox2: true
+      innercolor2: "#ffffff"
 
-    - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
+    - icon: "plus"
+      URL: "https://joshpinto6.github.io/#portfolio"
+      color: "#b7b7b7"
+      innerbox2: true
+      innercolor2: "#ffffff"
 
-    - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
+    - icon: "plus"
+      URL: "https://joshpinto6.github.io/#portfolio"
+      color: "#b7b7b7"
+      innerbox2: true
+      innercolor2: "#ffffff"
 
-    - icon: "codepen"
-      URL: "#"
+    - icon: "plus"
+      URL: "https://joshpinto6.github.io/#portfolio"
+      color: "#b7b7b7"
+      innerbox2: true
+      innercolor2: "#ffffff"
 
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+    - icon: "plus"
+      URL: "https://joshpinto6.github.io/#portfolio"
+      color: "#b7b7b7"
+      innerbox2: true
+      innercolor2: "#ffffff"
 
 # about
 about:
@@ -117,7 +143,7 @@ client_and_work:
 
   works:
     - title: "Game Development"
-      description: "I enjoy creating videogames, primarily using Scratch, but, more recently with Godot. I began coding with Scratch in 2015, mainly creating games and engines. Now I use Godot, a awesome 2D/3D open-source game engine. You can follow my games' progress [here.](joshpinto6.itch.io)"
+      description: "I enjoy creating videogames, primarily using Scratch, but, more recently with Godot. I began coding with Scratch in 2015, mainly creating games and engines. Now I use Godot, an open-source game engine for 2D/3D games. You can follow my games' progress [here.](joshpinto6.itch.io)"
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
