@@ -93,7 +93,7 @@ about:
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: ""
   image:
     x: "img/scratchprofile.png"
     _2x: "img/scratchprofile.png"
@@ -139,8 +139,8 @@ client_and_work:
       description: "I enjoy creating videogames, primarily using Scratch, but also, more recently, with Godot. I began coding with Scratch in 2015, mainly creating games and engines. Now I use Godot, an open-source game engine, to create 2D and 3D games. Game development is a way for me to  myself and inspire others. You can follow my games' progress [here.](joshpinto6.itch.io)"
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "View My Games on Itch.io"
+        URL: "https://joshpinto6.itch.io"
       image:
         x: "img/godot_screenshot.jpg"
         _2x: "img/godot_screenshot.jpg"
@@ -150,7 +150,7 @@ client_and_work:
       description: "A short Kirby-inspired pixel platformer I made in 48 hours for GMTK Game Jam 2022. You can track its progress [here.](joshpinto6.itch.io/oliver-the-dice-master)"
       button:
         icon: "icon-github-line"
-        btnText: "View on Github"
+        btnText: "Open in Github"
         URL: "#"
       image:
         x: "img/works/oliver-the-dicemaster.png"
