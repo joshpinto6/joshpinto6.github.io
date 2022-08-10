@@ -54,6 +54,7 @@
           data-src="{{ .image.x | absURL }}"
           data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
           alt="{{ .title }}"
+          style="width:100%;"
         />
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
@@ -61,7 +62,7 @@
         <p class="lead">
           {{ .description | markdownify }}
         </p>
-        <iframe frameborder="0" src="https://itch.io/embed/1610145" width="460" height="167"><a href="https://joshpinto6.itch.io/oliver-the-dice-master">Oliver the Dice Master by joshpinto6</a></iframe>
+        <iframe frameborder="0" style="margin-bottom: 8px;" src="https://itch.io/embed/1610145" width="460" height="167"><a href="https://joshpinto6.itch.io/oliver-the-dice-master">Oliver the Dice Master by joshpinto6</a></iframe>
         <a href="{{ .button.URL | absURL }}" class="btn btn-primary"
           ><i class="{{ .button.icon }}"></i
             >{{ .button.btnText }}</a>
