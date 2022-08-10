@@ -1,0 +1,5 @@
+{
+    "files.exclude": {
+        "themes/raditian-free-hugo-theme/layouts/partials/showcase.html": true
+    },
+}

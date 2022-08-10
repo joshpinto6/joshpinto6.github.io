@@ -105,9 +105,10 @@ client_and_work:
 
   clients:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+        x: "img/costume7 (2).svg"
+        _2x: "img/costume7 (2).svg"
+      alt: "GodotMage"
+      URL: https://joshpinto6.github.io/GodotMage/site
 
     - logo:
         x: "img/clients/earth-2.png"
