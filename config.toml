@@ -56,6 +56,11 @@ theme = "raditian-free-hugo-theme"
   URL = "#contact"
   weight = 4
 
+  [[menu.footer]]
+  name = "Github"
+  URL = "https://github.com/joshpinto6/joshpinto6.github.io"
+  weight = 4
+
 
 [params]
 
@@ -68,7 +73,7 @@ theme = "raditian-free-hugo-theme"
     text2 = "Pinto"
 
   [params.footer]
-      copyright = "Made with ♥ with Hugo and Raditian. [View on Github](https://github.com/joshpinto6/joshpinto6.github.io)"
+      copyright = "Made with ♥ with Hugo and Raditian. Powered by [Github](https://github.com/joshpinto6/joshpinto6.github.io) Pages"
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"

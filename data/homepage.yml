@@ -100,7 +100,7 @@ about:
 
 # Client & Work
 client_and_work:
-  title: "Works"
+  title: "Portfolio and Works"
   enable: true
 
   clients:
@@ -157,7 +157,7 @@ client_and_work:
         _2x: "img/works/oliver-the-dicemaster.png"
       is_even: false
 
-    - title: "Robo Advisor"
+    - title: "Application Development"
       description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
       button:
         icon: "icon-arrow-right"
@@ -170,7 +170,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
