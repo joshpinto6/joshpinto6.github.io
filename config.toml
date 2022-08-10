@@ -68,7 +68,7 @@ theme = "raditian-free-hugo-theme"
     text2 = "Pinto"
 
   [params.footer]
-      copyright = "Made with ♥ with Hugo and Raditian"
+      copyright = "Made with ♥ with Hugo and Raditian. [View on Github](https://github.com/joshpinto6/joshpinto6.github.io)"
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
