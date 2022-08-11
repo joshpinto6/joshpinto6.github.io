@@ -148,15 +148,21 @@ client_and_work:
       is_even: true
 
     - title: "Oliver the Dice Master"
+      date: Friday, July 15 - Sunday, July 17
       description: "A short Kirby-inspired pixel platformer I made in 48 hours for GMTK Game Jam 2022. You can track its progress [here.](joshpinto6.itch.io/oliver-the-dice-master)"
       button:
         icon: "icon-github-line"
         btnText: "Open in Github"
-        URL: "#"
+        URL: "https://github.com/joshpinto6/Oliver-the-dicemaster"
+      button2:
+        icon: "icon-smile-fill"
+        btnText: "Play on Itch.io"
+        URL: "https://joshpinto6.itch.io/oliver-the-dicemaster"
       image:
         x: "img/works/oliver-the-dicemaster.png"
         _2x: "img/works/oliver-the-dicemaster.png"
       is_even: false
+      isSub: true
 
     - title: "Application Development"
       description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
