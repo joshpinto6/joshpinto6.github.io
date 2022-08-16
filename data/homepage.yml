@@ -105,8 +105,8 @@ client_and_work:
 
   clients:
     - logo:
-        x: "img/costume7 (2).svg"
-        _2x: "img/costume7 (2).svg"
+        x: "img/clients/godotmage.svg"
+        _2x: "img/clients/godotmage.svg"
       alt: "GodotMage"
       URL: https://joshpinto6.github.io/GodotMage/site
 
